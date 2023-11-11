@@ -1,0 +1,33 @@
+definitions:
+  handler.User:
+    properties:
+      email:
+        type: string
+      id:
+        type: integer
+      name:
+        type: string
+    type: object
+info:
+  contact: {}
+  title: Swagger Dark Mode
+  version: "1.0"
+paths:
+  /user:
+    get:
+      consumes:
+      - application/json
+      description: Search library attributes
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/handler.User'
+        "500":
+          description: Internal Server Error
+      summary: Get Fake user
+      tags:
+      - user
+swagger: "2.0"
