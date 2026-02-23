@@ -1,6 +1,6 @@
 ## Project example for post Dark mode Swaggo
 
-view post [here](https://wiliamvj./posts/dark-mode-swaggo/)
+view post [here](https://wiliamvj.com/posts/dark-mode-swaggo/)
 
 run project:
 ```bash
